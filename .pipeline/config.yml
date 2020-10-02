@@ -33,10 +33,10 @@ stages:
 
   # This exclude is required for the example project to be successful in the pipeline
   # Remove it when you have added your first test
-#  s4SdkQualityChecks:
-#    jacocoExcludes:
-#      - '**/gen/**'
-#      - '**/Application.class'
+  s4SdkQualityChecks:
+    jacocoExcludes:
+      - '**/gen/**'
+      - '**/Application.class'
 
 #  npmAudit:
 #    auditedAdvisories:
