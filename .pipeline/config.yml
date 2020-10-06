@@ -56,5 +56,5 @@ stages:
         space: 'dev'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         appName: 'myAppName'
-        manifest: 'manifest.yml'
+#       manifest: 'manifest.yml'
         credentialsId: 'test_credentials'
